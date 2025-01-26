@@ -7,6 +7,8 @@ import { TbLayoutDistributeHorizontal } from "react-icons/tb";
 import { CiSliderHorizontal } from "react-icons/ci";
 import React from "react";
 import ProductCard from "@/components/ProductCard";
+import InfoSection from "@/components/Info";
+import Footer from "@/components/Footer";
 
 
 const Shop = () => {
@@ -195,7 +197,10 @@ const Shop = () => {
           Next
         </Button>
       </div>
-
+      {/* Info */}
+      <InfoSection/>
+      {/* Footer */}
+      <Footer/>
      
     </div>
   );
