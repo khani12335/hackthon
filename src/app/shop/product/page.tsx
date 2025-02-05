@@ -246,9 +246,9 @@ const Product = () => {
               </div>
               <h3 className="text-gray-700 font-medium mt-2">Product </h3>
               <p className="text-yellow-600 font-bold mt-1">
-                $9,000.00{" "}
+                $9,000.000{" "}
                 <span className="text-gray-400 line-through text-sm">
-                  $9,000.00{" "}
+                  $9,000.000{" "}
                 </span>
               </p>
             </div>
