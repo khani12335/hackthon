@@ -8,6 +8,8 @@ import { FaFacebookSquare, FaTwitterSquare, FaLinkedin } from "react-icons/fa";
 import { LuSlidersHorizontal } from "react-icons/lu";
 import { SlArrowRight } from "react-icons/sl";
 import { client } from "@/sanity/lib/client";
+import { toast, Toaster } from "react-hot-toast";
+
 
 interface Product {
     _id: string;
@@ -70,12 +72,24 @@ const Product = () => {
 
 
 
+    // const addToCart = () => {
+    //     const savedCart = JSON.parse(localStorage.getItem("cart") || "[]");
+    //     const updatedCart = [...savedCart, product?._id];
+    //     localStorage.setItem("cart", JSON.stringify(updatedCart));
+    //     alert("Product added to cart!");
+    // };
+
     const addToCart = () => {
         const savedCart = JSON.parse(localStorage.getItem("cart") || "[]");
         const updatedCart = [...savedCart, product?._id];
         localStorage.setItem("cart", JSON.stringify(updatedCart));
-        alert("Product added to cart!");
+    
+        toast.success("Product added to cart!", {
+            duration: 3000,
+            position: "top-right",
+        });
     };
+    
 
     if (loading) {
         return (
@@ -96,6 +110,7 @@ const Product = () => {
 
     return (
         <div className="min-h-screen flex flex-col">
+            <Toaster/>
             {/* Breadcrumb */}
             <div className="py-8 px-6 lg:px-10 bg-pink-100 text-gray-500 text-xl flex items-center justify-between mt-20">
                 {/* Left Section */}

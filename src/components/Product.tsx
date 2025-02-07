@@ -5,6 +5,7 @@ import { Button } from "./ui/button";
 import Link from "next/link";
 import { client } from "@/sanity/lib/client";
 
+
 // Product Type Definition
 export interface Product {
   _id: string;
