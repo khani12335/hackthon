@@ -28,7 +28,7 @@ const InspirationSection = () => {
         {/* Image 1 */}
         <div className="relative flex-shrink-0 w-full lg:max-w-sm h-80">
           <Image
-            src="/assest/img-8.png"
+            src="/assets/img-8.png"
             alt="Room 1"
             width={400}
             height={500}
@@ -48,7 +48,7 @@ const InspirationSection = () => {
         {/* Image 2 */}
         <div className="relative flex-shrink-0 w-52 lg:max-w-xs h-72 lg:mt-6 overflow-hidden">
           <Image
-            src="/assest/img-9.png" // Ensure the path is correct
+            src="/assets/img-9.png" // Ensure the path is correct
             alt="Room 2"
             width={372}
             height={486}

@@ -1,6 +1,3 @@
-import Footer from "@/components/Footer";
-import InfoSection from "@/components/Info";
-import NavBar from "@/components/NavBar";
 import { Button } from "@/components/ui/button";
 import { SlArrowRight } from "react-icons/sl";
 import { FaMapMarkerAlt } from "react-icons/fa";
@@ -12,11 +9,9 @@ import React from "react";
 const Contact = () => {
   return (
     <div className="min-h-screen bg-white">
-      {/* Header Section */}
-      <NavBar />
-      <div className="relative w-full h-80">
+      <div className="relative w-full h-80 mt-20">
         <Image
-          src="/assest/img-18.jpg"
+          src="/assets/img-18.jpg"
           alt="shop"
           layout="fill"
           objectFit="cover"
@@ -24,7 +19,7 @@ const Contact = () => {
         />
         <div className="absolute inset-0 flex flex-col justify-center items-center bg-pink-200 bg-opacity-40">
           <Image
-            src="/assest/logo.png" // Replace with the actual path to your image
+            src="/assets/logo.png" // Replace with the actual path to your image
             alt="Logo"
             width={77}
             height={77}
@@ -158,8 +153,6 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <InfoSection />
-      <Footer />
     </div>
   );
 };

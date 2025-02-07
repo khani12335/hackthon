@@ -16,7 +16,7 @@ const BrowseSection = () => {
     <div className="flex flex-col items-center">
       <div className="rounded-xl overflow-hidden shadow-md">
         <Image
-          src={"/assest/img-26.png"}
+          src={"/assets/img-26.png"}
           alt="dining"
           width={381}
           height={480}
@@ -30,7 +30,7 @@ const BrowseSection = () => {
     <div className="flex flex-col items-center">
       <div className="rounded-xl overflow-hidden shadow-md">
         <Image
-          src={"/assest/img-27.png"}
+          src={"/assets/img-27.png"}
           alt="living"
           width={381}
           height={480}
@@ -44,7 +44,7 @@ const BrowseSection = () => {
     <div className="flex flex-col items-center">
       <div className="rounded-xl overflow-hidden shadow-md">
         <Image
-          src={"/assest/img-28.png"}
+          src={"/assets/img-28.png"}
           alt="bedroom"
           width={381}
           height={480}

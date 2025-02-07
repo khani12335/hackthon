@@ -5,7 +5,7 @@ const HeroSection = () => {
   return (
     <div
         className="flex h-screen items-center justify-center bg-cover bg-center"
-        style={{ backgroundImage: "url('/assest/background.jpg')" }}
+        style={{ backgroundImage: "url('/assets/background.jpg')" }}
       >
         <div className="flex flex-col bg-pink-100 p-8 rounded-md shadow-md md:max-w-md md:ml-auto md:mr-40 md:mt-40">
           <p className="text-sm uppercase mb-2 text-gray-700">New Arrival</p>

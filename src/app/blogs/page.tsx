@@ -1,6 +1,3 @@
-import Footer from "@/components/Footer";
-import InfoSection from "@/components/Info";
-import NavBar from "@/components/NavBar";
 import { Button } from "@/components/ui/button";
 import { SlArrowRight } from "react-icons/sl";
 import { PiUserCircleDashedFill } from "react-icons/pi";
@@ -72,12 +69,12 @@ const Blog = () => {
 
   return (
     <div className="min-h-screen w-full">
-      <NavBar />
+     
 
       {/* Header Section */}
-      <div className="relative w-full h-80">
+      <div className="relative w-full h-80 mt-20">
         <Image
-          src="/assest/img-18.jpg"
+          src="/assets/img-18.jpg"
           alt="shop"
           layout="fill"
           objectFit="cover"
@@ -85,7 +82,7 @@ const Blog = () => {
         />
         <div className="absolute inset-0 flex flex-col justify-center items-center bg-pink-200 bg-opacity-40">
           <Image
-            src="/assest/logo.png" // Replace with the actual path to your image
+            src="/assets/logo.png" // Replace with the actual path to your image
             alt="Logo"
             width={77}
             height={77}
@@ -108,7 +105,7 @@ const Blog = () => {
           {blogPost.map((item, i) => (
             <div key={i} className="shadow-md rounded-lg overflow-hidden">
               <Image
-                src={`/assest/${item.img}`}
+                src={`/assets/${item.img}`}
                 alt="Blog Post"
                 width={820}
                 height={500}
@@ -235,7 +232,7 @@ const Blog = () => {
                     className="flex items-center gap-4 hover:text-gray-800"
                   >
                     <Image
-                      src={`/assest/${item.img}`}
+                      src={`/assets/${item.img}`}
                       alt="Recent Post"
                       width={80}
                       height={80}
@@ -252,8 +249,6 @@ const Blog = () => {
           </div>
         </div>
       </div>
-      <InfoSection />
-      <Footer />
     </div>
   );
 };

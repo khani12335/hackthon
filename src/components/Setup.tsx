@@ -13,7 +13,7 @@ const Setup = () => {
     {/* Image 1 */}
     <div className=" md:w-48 lg:w-56 flex-shrink-0">
       <Image
-        src="/assest/img-17.png" /* Replace with your image paths */
+        src="/assets/img-17.png" /* Replace with your image paths */
         alt="Furniture 1"
         width={275}
         height={382}
@@ -24,7 +24,7 @@ const Setup = () => {
     {/* Image 2 */}
     <div className="md:w-56 lg:w-64 flex-shrink-0">
       <Image
-        src="/assest/img-11.png"
+        src="/assets/img-11.png"
         alt="Furniture 2"
         width={274}
         height={382}
@@ -35,7 +35,7 @@ const Setup = () => {
     {/* Image 3 */}
     <div className="md:w-64 lg:w-72 flex-shrink-0">
       <Image
-        src="/assest/img-12.png"
+        src="/assets/img-12.png"
         alt="Furniture 3"
         width={295}
         height={392}
@@ -46,7 +46,7 @@ const Setup = () => {
     {/* Image 4 */}
     <div className=" md:w-56 lg:w-64 flex-shrink-0">
       <Image
-        src="/assest/img-13.png"
+        src="/assets/img-13.png"
         alt="Furniture 4"
         width={295}
         height={392}
@@ -57,7 +57,7 @@ const Setup = () => {
     {/* Image 5 */}
     <div className="md:w-48 lg:w-56 flex-shrink-0">
       <Image
-        src="/assest/img-14.png"
+        src="/assets/img-14.png"
         alt="Furniture 5"
         width={295}
         height={392}
@@ -68,7 +68,7 @@ const Setup = () => {
     {/* Image 6 */}
     <div className="md:w-56 lg:w-64 flex-shrink-0">
       <Image
-        src="/assest/img-15.png"
+        src="/assets/img-15.png"
         alt="Furniture 6"
         width={295}
         height={392}
@@ -79,7 +79,7 @@ const Setup = () => {
     {/* Image 7 */}
     <div className="md:w-64 lg:w-72 flex-shrink-0">
       <Image
-        src="/assest/img-16.png"
+        src="/assets/img-16.png"
         alt="Furniture 7"
         width={295}
         height={392}
@@ -90,7 +90,7 @@ const Setup = () => {
     {/* Image 8 */}
     <div className="md:w-56 lg:w-64 flex-shrink-0">
       <Image
-        src="/assest/img-17.png"
+        src="/assets/img-17.png"
         alt="Furniture 8"
         width={295}
         height={392}
