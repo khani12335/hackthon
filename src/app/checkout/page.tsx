@@ -4,7 +4,7 @@ import { SlArrowRight } from "react-icons/sl";
 import Image from "next/image";
 import React, { useState, useEffect } from "react";
 import { client } from "@/sanity/lib/client";
-import { FaCheckCircle, FaRegCircle } from "react-icons/fa";
+import { FaCheckCircle } from "react-icons/fa";
 import { GoDotFill } from "react-icons/go";
 
 

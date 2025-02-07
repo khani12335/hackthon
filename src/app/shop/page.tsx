@@ -54,7 +54,7 @@ const Shop = () => {
   };
 
   const sortProducts = (sortType: "default" | "low-high" | "high-low") => {
-    let sorted = [...filteredProducts];
+    const sorted = [...filteredProducts];
     if (sortType === "low-high") sorted.sort((a, b) => a.price - b.price);
     else if (sortType === "high-low") sorted.sort((a, b) => b.price - a.price);
     setFilteredProducts(sorted);
