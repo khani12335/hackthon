@@ -186,6 +186,7 @@ const CheckOut = () => {
                                 <option>Western Province</option>
                                 <option>Central Province</option>
                                 <option>Southern Province</option>
+                                <option>Southern Province</option>
                             </select>
                         </div>
 
