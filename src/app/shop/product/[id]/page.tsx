@@ -121,7 +121,7 @@ const Product = () => {
                     <SlArrowRight className="mx-4 text-black" />
                     <Link href={"/shop"}>
                         <span>Shop</span>
-                    </Link>
+                    </Link> 
                     <span className="text-black mx-4">|</span>
                     <span className="text-black">{product.title}</span>
                 </div>
